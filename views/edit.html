@@ -1,0 +1,34 @@
+<h1>Edit Employee</h1>
+
+<form name="edit_form" class="form-horizontal" role="form">
+  <div class="form-group">
+    <label for="name" class="col-sm-2 control-label">Name:</label>
+    <div class="col-sm-4">
+      <input class="form-control" id="name" type="text"
+             ng-model="employee.name" placeholder="Name"/>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="email" class="col-sm-2 control-label">Email:</label>
+    <div class="col-sm-4">
+      <input class="form-control" id="email" type="email"
+             ng-model="employee.email" placeholder="Email"/>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="date" class="col-sm-2 control-label">Hire Date:</label>
+    <div class="col-sm-4">
+      <input class="form-control" id="date" type="date"
+             ng-model="employee.date" placeholder="mm/dd/yyyy"/>
+    </div>
+  </div>
+
+  <div class="form-group">
+
+    <div class="col-sm-offset-2 col-sm-10">
+      <input type="submit" id="submit" class="btn btn-small btn-primary" ng-click="editEmployee()" class="btn btn-small btn-primary"></button> <a href="#/products" class="btn btn-small btn-danger">Cancel</a>
+    </div>
+  </div>
+</form>
