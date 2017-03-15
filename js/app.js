@@ -44,5 +44,5 @@ app.config(function($routeProvider){
 });
 
 app.constant("FBURL", 
-  "https://incandescent-fire-2692.firebaseIO.com/employees/" //Use the URL of your project here
+  "https://employeelist-7ec3d.firebaseio.com/" //Use the URL of your project here
 );
